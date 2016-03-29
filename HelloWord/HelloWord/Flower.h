@@ -12,8 +12,6 @@
 
 @interface Flower : Trees <TaiDepTrai>
 
--(void) bien1:(int) num1 bien2:(int) num2;
-
 -(void) smell;
 
 @end

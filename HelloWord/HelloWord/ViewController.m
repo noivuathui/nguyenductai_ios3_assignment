@@ -14,6 +14,7 @@
 #import "Vua.h"
 #import "Tot.h"
 #import "Xe.h"
+#import "interface.h"
 
 @interface ViewController ()
 
@@ -29,8 +30,7 @@
     self.image.contentMode = UIViewContentModeScaleAspectFill;
     self.image.clipsToBounds = NO;
     
-    
-    Flower *flower1 = [[Flower alloc]init];
+    Flower *flower1 = [[Flower alloc] init];
     [flower1 smell];
     [flower1 drop];
     
